@@ -9,8 +9,7 @@ public class JDBC {
 		try {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			// Connecting to GCP Database
-			Connection conn = DriverManager.getConnection("jdbc:mysql://35.188.207.234:3306/todolist", "root",
-					"amansaluja");
+			// Add your own connection here
 
 			return conn;
 		} catch (Exception e2) {
